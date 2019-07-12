@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require 'pry'
 
 class Song 
@@ -16,6 +17,15 @@ class Song
     new_song.artist = artist
     new_song
     #binding.pry
+=======
+class Song 
+  
+  attr_accessor :title, :artist
+  
+  def initialize(title, artist = nil)
+    @title = title
+    @artist = artist
+>>>>>>> ec2d6913f2bd74a1b5c51326b4d0f6cf69a38e56
   end
   
 end
